@@ -10,16 +10,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    // outlets 
+    @IBOutlet weak var userName: UITextField!
+    @IBOutlet weak var password: UITextField!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func doneText(sender: UITextField)
+    {
+        sender.resignFirstResponder();
+    }
+    
+    @IBAction func exitTextEditing(sender: UITapGestureRecognizer)
+    {
+        userName.resignFirstResponder();
+        password.resignFirstResponder();
+    }
+    
 }
 

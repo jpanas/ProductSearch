@@ -12,6 +12,8 @@
 		8CBE5B2D1C85F94800BD1A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE5B2B1C85F94800BD1A76 /* Main.storyboard */; };
 		8CBE5B2F1C85F94800BD1A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE5B2E1C85F94800BD1A76 /* Assets.xcassets */; };
 		8CBE5B321C85F94800BD1A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE5B301C85F94800BD1A76 /* LaunchScreen.storyboard */; };
+		A27C680B1C879E26005C09B7 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C680A1C879E26005C09B7 /* loginViewController.swift */; };
+		A27C680D1C879E54005C09B7 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C680C1C879E54005C09B7 /* signUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8CBE5B2E1C85F94800BD1A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CBE5B311C85F94800BD1A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CBE5B331C85F94800BD1A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27C680A1C879E26005C09B7 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		A27C680C1C879E54005C09B7 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8CBE5B2E1C85F94800BD1A76 /* Assets.xcassets */,
 				8CBE5B301C85F94800BD1A76 /* LaunchScreen.storyboard */,
 				8CBE5B331C85F94800BD1A76 /* Info.plist */,
+				A27C680A1C879E26005C09B7 /* loginViewController.swift */,
+				A27C680C1C879E54005C09B7 /* signUpViewController.swift */,
 			);
 			path = ProductSearch;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27C680B1C879E26005C09B7 /* loginViewController.swift in Sources */,
 				8CBE5B2A1C85F94800BD1A76 /* ViewController.swift in Sources */,
+				A27C680D1C879E54005C09B7 /* signUpViewController.swift in Sources */,
 				8CBE5B281C85F94800BD1A76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				8CBE5B381C85F94800BD1A76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

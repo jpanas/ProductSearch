@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     // outlets 
     @IBOutlet weak var userName: UITextField!
     @IBOutlet weak var password: UITextField!
+
     
     override func viewDidLoad()
     {
@@ -37,5 +38,18 @@ class ViewController: UIViewController {
         password.resignFirstResponder();
     }
     
+    @IBAction func switchViews(sender: UIButton)
+    {
+        // Create the new view controller, if required
+
+    }
+    @IBAction func login(sender: UIButton)
+    {
+        if userName != nil && password != nil
+        {
+            //Enter code to switch views to Tab bar View Controller 
+            sto
+        }
+    }
 }
 
